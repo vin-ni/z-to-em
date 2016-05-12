@@ -36,6 +36,7 @@ document.addEventListener('headtrackingEvent',
   function (event) {
     /*original object*/
     // console.log(event);
+    console.log(event.z);
     textResize(event.z);
 
   }
