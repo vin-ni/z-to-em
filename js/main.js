@@ -35,7 +35,7 @@ var canvas2 = document.getElementById('canvas2');
 document.addEventListener('headtrackingEvent', 
   function (event) {
     var array = Object.keys(event).map(function (key) {return event[key]});
-    console.log( z_array.push(event.z));
+    console.log( event.z);
     /*original object*/
     // console.log(event);
     /*z variable (position of head in cm's distance)*/
